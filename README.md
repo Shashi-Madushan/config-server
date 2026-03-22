@@ -29,9 +29,9 @@ src/main/resources/configurations/
 │   ├── api-gateway.yaml      # Api-Gateway routes & CORS config
 │   └── service-registry.yaml # Eureka server settings
 └── services/
-    ├── student-service.yaml  # Student-Service datasource (PostgreSQL)
-    ├── program-service.yaml  # Program-Service datasource (MongoDB)
-    └── enrollment-service.yaml # Enrollment-Service datasource (MySQL)
+    ├── iam-service.yaml      # IAM Service datasource (MySQL)
+    ├── product-service.yaml  # Product Service datasource (MongoDB)
+    └── order-service.yaml    # Order Service datasource (MySQL)
 ```
 
 ## Service Details
