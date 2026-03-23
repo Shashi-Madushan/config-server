@@ -2,9 +2,6 @@ spring:
   application:
     name: Config-Server
 
-  profiles:
-    active: ${SPRING_PROFILES_ACTIVE:default}
-
   cloud:
     config:
       server:
